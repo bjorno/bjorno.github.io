@@ -1,6 +1,6 @@
 # main text of home
 name: Björn Ordoubadian
-bio: Making space accessible through the private sector
+bio: Developing the commercial space sector
 
 # twitter summary info
 #description: A blog about Aerospace and stuff related
@@ -14,9 +14,9 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://google.com/
 
-url: https://bjorno.github.io
+url: http://bjorno.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,8 +34,8 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-#facebook: myfacebook
-#twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -56,9 +56,9 @@ email: bjorn.ordoubadian@gmail.com
 authors:
     bjorno:
         name: Björn Ordoubadian
-        bio: Making space accessible through the private sector
+        bio: Developing the commercial space sector
         external-image: false
-        picture: assets/images/bjorno-profile.jpeg
+        picture: assets/images/profile.jpg
         #twitter: johndoe
 
 # do you want a larger site? change the option below
@@ -103,7 +103,7 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com
+    base_url: https://github.com/bjorno
 
 compress_html:
     ignore:
